@@ -23,8 +23,8 @@ export class AppMenu {
             {
                 label: 'Reportes de Mascotas',
                 icon: 'pi pi-fw pi-home',
-                items: [{ label: 'Reportar Mascota', icon: 'pi pi-fw pi-plus-circle', routerLink: ['/pages/map'] },
-                        { label: 'Mascotas Reportadas', icon: 'pi pi-fw pi-exclamation-triangle', routerLink: ['/pages/map/list'] }]
+                items: [{ label: 'Reportar', icon: 'pi pi-fw pi-plus-circle', routerLink: ['/pages/map'] },
+                        { label: 'Busca tu mascota', icon: 'pi pi-fw pi-search', routerLink: ['/pages/map/list'] }]
             },
             {
                 label: 'Usuarios',
