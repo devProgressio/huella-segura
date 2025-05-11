@@ -16,7 +16,8 @@ import { LayoutService } from '../service/layout.service';
                 <i class="pi pi-bars"></i>
             </button>
             <a class="layout-topbar-logo" routerLink="/">
-                <svg viewBox="0 0 54 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <img class="horizontal-logo" src="/layout/images/logo.png" alt="layout"  width="40"/>
+                <!-- <svg viewBox="0 0 54 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
@@ -32,7 +33,7 @@ import { LayoutService } from '../service/layout.service';
                             fill="var(--primary-color)"
                         />
                     </g>
-                </svg>
+                </svg> -->
                 <span>H.SEGURA</span>
             </a>
         </div>
