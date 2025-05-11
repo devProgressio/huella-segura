@@ -28,4 +28,8 @@ export class ReportService {
   deleteReport(id: string): Observable<void> {
     return this.http.delete<void>(`${this.api}/${id}`);
   }
+
+  getImageRandom(): Observable<any> {
+    return this.http.get('https://dog.ceo/api/breeds/image/random');
+  }
 }
